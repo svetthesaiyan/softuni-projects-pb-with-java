@@ -1,0 +1,24 @@
+package conditional_statements;
+
+import java.util.Scanner;
+
+public class f_shapes_area 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		System.out.print("Please enter the shape whose area you'd like to calculate: ");
+		String input=scanner.nextLine();
+		
+		if(input.equalsIgnoreCase("square"))
+		{
+			System.out.print("Please enter the length of your square's side: ");
+			double squareSide=Double.parseDouble(scanner.nextLine());
+			System.out.println();
+			
+			double squareArea=Math.pow(squareSide, 2);
+			System.out.print("The area of your square is: "+squareArea);
+		}
+
+	}
+}

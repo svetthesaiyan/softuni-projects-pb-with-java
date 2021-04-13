@@ -1,0 +1,23 @@
+package conditional_statements_extra_exercises;
+
+import java.util.Scanner;
+
+public class a_pipes_in_pool 
+{
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		int volume=Integer.parseInt(scanner.nextLine());
+		int pipe1=Integer.parseInt(scanner.nextLine());
+		int pipe2=Integer.parseInt(scanner.nextLine());
+		double timeAway=Double.parseDouble(scanner.nextLine());
+		
+		double poolFill=timeAway*(pipe1+pipe2);
+		double poolOccupancyInPercent=poolFill/volume*100;
+		
+		if(poolOccupancyInPercent<=volume)
+		{
+			System.out.printf("The pool is %f% full. Pipe 1: %f%. Pipe 2: %f%.", poolOccupancyInPercent);
+		}
+	}
+}

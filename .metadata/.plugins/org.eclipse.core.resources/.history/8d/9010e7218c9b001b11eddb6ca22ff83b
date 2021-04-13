@@ -1,0 +1,19 @@
+package conditional_statements_extra_exercises;
+
+import java.util.Scanner;
+
+public class b_sleepy_tom_the_cat 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner = new Scanner(System.in);
+		int daysOff=Integer.parseInt(scanner.nextLine());	// почивни дни в годината
+		int playNormPerYearInMins=30000;
+		int playWorkDaysPerDayinMins=63;
+		int playDaysOffPerDayInMins=127;
+		int daysPerYear=365;	
+		
+		int workDays=daysPerYear-daysOff;	// работни дни в годината
+		int playtime=workDays*playWorkDaysPerDayinMins+daysOff*playDaysOffPerDayInMins;
+	}
+}

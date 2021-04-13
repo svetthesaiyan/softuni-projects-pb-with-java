@@ -1,0 +1,18 @@
+package first_steps_in_programming_extra_exercises;
+
+import java.util.Scanner;
+
+public class j_weather_forecast_II 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		double temperature=Double.parseDouble(scanner.nextLine());
+		
+		if(temperature>=5 && temperature<=11.9);
+		{
+			System.out.println("Cold");
+		}
+
+	}
+}

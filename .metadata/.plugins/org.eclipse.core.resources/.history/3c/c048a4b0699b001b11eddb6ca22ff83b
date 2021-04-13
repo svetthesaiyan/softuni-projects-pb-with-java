@@ -1,0 +1,11 @@
+package conditional_statement_exercise;
+
+import java.util.Scanner;
+
+public class c_speed_info 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

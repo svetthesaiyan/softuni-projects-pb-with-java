@@ -1,0 +1,17 @@
+package first_steps_in_programming_extra_exercises;
+
+import java.util.Scanner;
+
+public class g_house_paintjob 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		
+		
+		double greenPaintSquaredMetresperLitre=3.4;
+		double redPaintSquaredMetresperLitre=4.3;
+
+
+	}
+}

@@ -1,0 +1,16 @@
+package first_steps_in_programming_extra_exercises;
+
+import java.util.Scanner;
+
+public class d_vegetable_bazaar 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		double vegetable_price=Double.parseDouble(scanner.nextLine());
+		double fruit_price=Double.parseDouble(scanner.nextLine());
+		int vegetable_weight=Integer.parseInt(scanner.nextLine());
+		int fruit_weight=Integer.parseInt(scanner.nextLine());
+
+	}
+}

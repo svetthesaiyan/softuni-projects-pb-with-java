@@ -1,0 +1,20 @@
+package conditional_statements_extra_exercises;
+
+import java.util.Scanner;
+
+public class c_harvest 
+{
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		int vineyardArea=Integer.parseInt(scanner.nextLine());
+		double grapesPerSquaredMetre=Double.parseDouble(scanner.nextLine());
+		int WineInLitres=Integer.parseInt(scanner.nextLine());
+		int farmersQuantity=Integer.parseInt(scanner.nextLine());
+		
+		double vineyardAreaForWine=vineyardArea*0.4;
+		double grapesInKilos=vineyardAreaForWine*grapesPerSquaredMetre;
+		double WineForSale=WineInLitres*2.5;
+		
+	}
+}

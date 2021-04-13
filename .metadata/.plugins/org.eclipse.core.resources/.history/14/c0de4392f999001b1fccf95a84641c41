@@ -1,0 +1,10 @@
+package conditional_statements;
+
+public class f_shapes_area {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

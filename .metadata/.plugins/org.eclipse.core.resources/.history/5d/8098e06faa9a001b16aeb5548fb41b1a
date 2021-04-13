@@ -1,0 +1,17 @@
+package conditional_statement_exercise;
+
+import java.util.Scanner;
+
+public class g_swimming_world_record 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		double record=Double.parseDouble(scanner.nextLine());
+		double distance=Double.parseDouble(scanner.nextLine());
+		double timeInSec=Double.parseDouble(scanner.nextLine());
+		
+		double result=distance*timeInSec;
+
+	}
+}

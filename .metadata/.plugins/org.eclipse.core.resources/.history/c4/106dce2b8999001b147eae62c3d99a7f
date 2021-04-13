@@ -1,0 +1,10 @@
+package first_steps_in_programming_extra_exercises;
+
+public class h_circle_parameter_and_area {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package conditional_statements;
+
+import java.util.Scanner;
+
+public class b_greater_than 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		System.out.print("Enter first number: ");
+		int number1=Integer.parseInt(scanner.nextLine());
+		System.out.print("Enter second number: ");
+		int number2=Integer.parseInt(scanner.nextLine());
+		
+		if(number1>number2)
+		{
+			System.out.println(number1);
+		}
+		else
+			System.out.println(number2);
+	}
+}

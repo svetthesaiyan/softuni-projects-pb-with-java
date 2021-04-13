@@ -1,0 +1,10 @@
+package first_steps_in_programming_extra_exercises;
+
+public class g_house_paintjob {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

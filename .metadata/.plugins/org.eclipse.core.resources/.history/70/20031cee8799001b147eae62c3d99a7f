@@ -1,0 +1,24 @@
+package first_steps_in_programming_extra_exercises;
+
+import java.util.Scanner;
+
+public class g_house_paintjob 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		double x=Double.parseDouble(scanner.nextLine());
+		double y=Double.parseDouble(scanner.nextLine());
+		double h=Double.parseDouble(scanner.nextLine());
+		
+		double greenPaintSquaredMetresperLitre=3.4;
+		double redPaintSquaredMetresperLitre=4.3;
+		
+		double frontAndBackWallArea=(2*x*x)-(1.2*2);
+		double sideWallArea=(2*x*y)-((1.5*1.5)*2);
+		
+
+		System.out.println(frontAndBackWallArea);
+		System.out.println(sideWallArea);
+	}
+}

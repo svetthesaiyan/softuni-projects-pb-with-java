@@ -1,0 +1,10 @@
+package conditional_statements_lab;
+
+public class e_password {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

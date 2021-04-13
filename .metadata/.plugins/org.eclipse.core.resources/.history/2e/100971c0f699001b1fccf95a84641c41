@@ -1,0 +1,19 @@
+package conditional_statements;
+
+import java.util.Scanner;
+
+public class a_grade_check 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		double mark=Double.parseDouble(scanner.nextLine());
+		
+		if(mark>=5.5 && mark==6)
+		{
+			System.out.println("Excellent!");
+		}
+		else if(mark>6)
+			System.out.println("No such mark exists.");
+	}
+}

@@ -1,0 +1,18 @@
+package conditional_statements;
+
+import java.util.Scanner;
+
+public class extra_exercise 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		String currentDay="Monday";
+		
+		if(currentDay.equals("Monday"))
+		{
+			double salary=Double.parseDouble(scanner.nextLine());
+		}
+	}
+}

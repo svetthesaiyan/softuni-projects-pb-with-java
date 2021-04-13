@@ -1,0 +1,24 @@
+package conditional_statement_exercise;
+
+import java.util.Scanner;
+
+public class e_godzilla_vs_kong 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner = new Scanner(System.in);
+		double budget=Double.parseDouble(scanner.nextLine());
+		int actor=Integer.parseInt(scanner.nextLine());
+		double actorGarmentPrice=Double.parseDouble(scanner.nextLine());
+		double actorGarmentPriceDiscount=0.0;
+		
+		double decor=budget*0.1;
+		
+		if(actor>150)
+			actorGarmentPriceDiscount=actorGarmentPrice-(actorGarmentPrice*0.1);
+		else
+		{
+			
+		}
+	}
+}

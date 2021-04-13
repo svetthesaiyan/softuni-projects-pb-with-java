@@ -1,0 +1,16 @@
+package first_steps_in_programming_extra_exercises;
+
+import java.util.Scanner;
+
+public class a_trapezoid_area 
+{
+	public static void main(String[] args) 
+	{
+/*		Scanner scanner=new Scanner(System.in);
+		int b1=Integer.parseInt(scanner.nextLine());
+		int b2=Integer.parseInt(scanner.nextLine());
+		int h=Integer.parseInt(scanner.nextLine());
+*/		
+		System.out.println(10/3);
+	}
+}

@@ -1,0 +1,15 @@
+package first_steps_in_programming_extra_exercises;
+
+import java.util.Scanner;
+
+public class h_circle_perimeter_and_area 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner=new Scanner(System.in);
+		double r=Double.parseDouble(scanner.nextLine());
+		
+		
+
+	}
+}
