@@ -7,8 +7,11 @@ public class e_godzilla_vs_kong
 	public static void main(String[] args) 
 	{
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter the movie's budget: ");
 		double budget=Double.parseDouble(scanner.nextLine());
+		System.out.print("Enter the amount of actors working on set: ");
 		int actor=Integer.parseInt(scanner.nextLine());
+		System.out.print("Enter the price for clothing per actor: ");
 		double actorGarmentPriceperPerson=Double.parseDouble(scanner.nextLine());
 		double actorGarmentPriceDiscount=0.0;
 		

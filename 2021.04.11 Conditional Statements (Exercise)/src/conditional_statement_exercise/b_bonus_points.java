@@ -7,7 +7,7 @@ public class b_bonus_points
 	public static void main(String[] args) 
 	{
 		Scanner scanner=new Scanner(System.in);
-		System.out.print("Enter starting points: ");
+		System.out.print("Enter contestant's starting points: ");
 		int startingPoints=Integer.parseInt(scanner.nextLine());
 		double bonusPoints=0.0;
 		
