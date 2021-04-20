@@ -7,10 +7,15 @@ public class a_pipes_in_pool
 	public static void main(String[] args)
 	{
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Please enter the pool's volume in litres: ");
 		int volume=Integer.parseInt(scanner.nextLine());
+		System.out.print("Enter the first pipe's water flow rate per hour: ");
 		int pipePerHour1=Integer.parseInt(scanner.nextLine());
+		System.out.print("Enter the second pipe's water flow rate per hour: ");
 		int pipePerHour2=Integer.parseInt(scanner.nextLine());
+		System.out.print("Enther the amount of time the worker will be missing in hours: ");
 		double hours=Double.parseDouble(scanner.nextLine());
+		System.out.println();
 		
 		double pipePerHour1Fill=pipePerHour1*hours;
 		double pipePerHour2Fill=pipePerHour2*hours;
@@ -20,12 +25,8 @@ public class a_pipes_in_pool
 		double pipePerHour2poolFillOccupancyInPercent=pipePerHour2Fill/poolFill*100;
 		
 		if(poolFill<=volume)
-		{
-			System.out.printf("The pool is %.2f%% full. Pipe 1: %.2f%%. Pipe 2: %.2f%%.", poolOccupancyInPercent, pipePerHour1poolFillOccupancyInPercent, pipePerHour2poolFillOccupancyInPercent);
-		}
+			System.out.printf("The pool would be %.2f%% full after %.1f hours of constant water supply."+"\n"+"Pipe 1 would've filled %.2f%% of the occupied pool volume."+"\n"+"Pipe 2 on the other hand would be responsible for the other %.2f%%.", poolOccupancyInPercent, hours, pipePerHour1poolFillOccupancyInPercent, pipePerHour2poolFillOccupancyInPercent);
 		else
-		{
-			System.out.printf("For %.2f hours the pool overflows with %.2f liters.", hours, poolFill-volume);
-		}
+			System.out.printf("If the worker were to be away for %.1f hours, the pool would overflow with %.2f litres.", hours, poolFill-volume);
 	}
 }

@@ -1,9 +1,0 @@
-package conditional_statement_exercise;
-
-public class b_bonus_points 
-{
-	public static void main(String[] args) 
-	{
-		
-	}
-}

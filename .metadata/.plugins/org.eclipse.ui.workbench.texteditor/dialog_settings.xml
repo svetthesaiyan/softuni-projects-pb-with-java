@@ -6,44 +6,44 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="wineProductionLeftover"/>
+		<item key="selection" value="day"/>
 		<list key="findhistory">
+			<item value="weekDay"/>
+			<item value="availableHours"/>
+			<item value="%f"/>
+			<item value="%.0f"/>
+			<item value="%d"/>
+			<item value="T-shirt"/>
+			<item value="film"/>
+			<item value="priceWithNegativeRating"/>
+			<item value="priceWithPositiveRating"/>
+			<item value="bear"/>
+			<item value="necessaryHours"/>
+			<item value="taxiDayAndBusCheapest"/>
+			<item value="taxiNightAndBusCheapest"/>
 			<item value="wineProduction"/>
 			<item value="wineManufactured"/>
-			<item value="WineForSale"/>
-			<item value="WineInLitres"/>
-			<item value="playtimePerYearMins"/>
-			<item value="playtimePerYearHours"/>
-			<item value="playDaysOffPerDayInMins"/>
-			<item value="playWorkDaysPerDayinMins"/>
-			<item value="pipe2"/>
-			<item value="pipe1"/>
-			<item value="pipePerHour1"/>
-			<item value="timeAway"/>
-			<item value="pipe1poolFillOccupancyinPercent"/>
-			<item value="pipe2poolOccupancyInPercent"/>
-			<item value="pipe1poolOccupancyInPercent"/>
 		</list>
 		<list key="replacehistory">
+			<item value="day"/>
+			<item value="maxHours"/>
+			<item value="%.0f"/>
+			<item value=""/>
+			<item value="%f"/>
+			<item value="T-Shirt"/>
+			<item value="filmType"/>
+			<item value="price"/>
+			<item value="beer"/>
+			<item value="available"/>
+			<item value="taxiDayAndBusCheapestSum"/>
+			<item value="taxiNightAndBusCheapestSum"/>
 			<item value="wineProductionLeftover"/>
 			<item value="wineProduction"/>
 			<item value="wineForSale"/>
-			<item value="wineInLitres"/>
-			<item value="playtimePerYearMinsDifference"/>
-			<item value="playtimePerYearHoursDifference"/>
-			<item value="playtimeDaysOffPerDayInMins"/>
-			<item value="playtimeWorkDaysPerDayinMins"/>
-			<item value="pipePerHour2"/>
-			<item value="pipePerHour1"/>
-			<item value="hours"/>
-			<item value="pipe1poolFillOccupancyInPercent"/>
-			<item value="pipe2poolFillOccupancyInPercent"/>
-			<item value="pipe1poolFillOccupancyinPercent"/>
-			<item value="skumriq_price"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="-289"/>
+		<item key="DIALOG_X_ORIGIN" value="8"/>
 		<item key="DIALOG_Y_ORIGIN" value="279"/>
 		<item key="DIALOG_WIDTH" value="284"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
