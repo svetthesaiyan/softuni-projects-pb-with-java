@@ -19,31 +19,33 @@ public class k_fruit_shop
 		double price=0;
 		
 		if(day.equals("Monday") || day.equals("Tuesday") || day.equals("Wednesday") || day.equals("Thursday") || day.equals("Friday"))
-		switch(fruit)
 		{
-		case "banana":
-			System.out.printf("%.2f", price=2.5*quantity);
-			break;
-		case "apple":
-			System.out.printf("%.2f", price=1.2*quantity);
-			break;
-		case "orange":
-			System.out.printf("%.2f", price=0.85*quantity);
-			break;
-		case "grapefruit":
-			System.out.printf("%.2f", price=1.45*quantity);
-			break;
-		case "kiwi":
-			System.out.printf("%.2f", price=2.7*quantity);
-			break;
-		case "pineapple":
-			System.out.printf("%.2f", price=5.5*quantity);
-			break;
-		case "grapes":
-			System.out.printf("%.2f", price=3.85*quantity);
-			break;
-		default: 
-			System.out.printf("error");
+			switch(fruit)
+			{
+			case "banana":
+				System.out.printf("%.2f", price=2.5*quantity);
+				break;
+			case "apple":
+				System.out.printf("%.2f", price=1.2*quantity);
+				break;
+			case "orange":
+				System.out.printf("%.2f", price=0.85*quantity);
+				break;
+			case "grapefruit":
+				System.out.printf("%.2f", price=1.45*quantity);
+				break;
+			case "kiwi":
+				System.out.printf("%.2f", price=2.7*quantity);
+				break;
+			case "pineapple":
+				System.out.printf("%.2f", price=5.5*quantity);
+				break;
+			case "grapes":
+				System.out.printf("%.2f", price=3.85*quantity);
+				break;
+			default: 
+				System.out.printf("error");
+			}
 		}
 		
 		else if(day.equals("Saturday") || day.equals("Sunday"))
