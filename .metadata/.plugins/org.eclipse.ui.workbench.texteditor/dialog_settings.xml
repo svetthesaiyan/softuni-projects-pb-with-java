@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="day"/>
+		<item key="selection" value="rose"/>
 		<list key="findhistory">
+			<item value="roses"/>
+			<item value="laleta"/>
+			<item value="hrizantemi"/>
 			<item value="weekDay"/>
 			<item value="availableHours"/>
 			<item value="%f"/>
@@ -20,11 +23,11 @@
 			<item value="bear"/>
 			<item value="necessaryHours"/>
 			<item value="taxiDayAndBusCheapest"/>
-			<item value="taxiNightAndBusCheapest"/>
-			<item value="wineProduction"/>
-			<item value="wineManufactured"/>
 		</list>
 		<list key="replacehistory">
+			<item value="rose"/>
+			<item value="tulip"/>
+			<item value="chrysanthemum"/>
 			<item value="day"/>
 			<item value="maxHours"/>
 			<item value="%.0f"/>
@@ -37,9 +40,6 @@
 			<item value="available"/>
 			<item value="taxiDayAndBusCheapestSum"/>
 			<item value="taxiNightAndBusCheapestSum"/>
-			<item value="wineProductionLeftover"/>
-			<item value="wineProduction"/>
-			<item value="wineForSale"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
