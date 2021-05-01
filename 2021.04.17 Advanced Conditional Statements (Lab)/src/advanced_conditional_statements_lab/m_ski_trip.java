@@ -56,7 +56,7 @@ public class m_ski_trip
 		else if(rating.equals("negative"))
 		{
 			price*=0.9;
-		System.out.printf("Your stay with us will cost %.2f lv. We apologise for any inconveniences on our behalf and promise to do better.", price);
+			System.out.printf("Your stay with us will cost %.2f lv. We apologise for any inconveniences on our behalf and promise to do better.", price);
 		}
 	}
 }

@@ -13,9 +13,9 @@ public class j_invalid_number
 		System.out.println();
 		
 		if((number>=100 && number<=200) || number==0);	// може целият израз в скобите да се замести с "isValid"
-		System.out.println("You input a valid number, whose parameters you'll never truly know...");
+			System.out.println("You input a valid number, whose parameters you'll never truly know...");
 		
 		if(!isValid)
-		System.out.println("you stoopid");
+			System.out.println("you stoopid");
 	}
 }
