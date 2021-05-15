@@ -1,12 +1,9 @@
 package for_loop_extra_exercises;
 
-import java.util.Scanner;
-
 public class i_clock_I 
 {
 	public static void main(String[] args) 
 	{
-		Scanner scanner = new Scanner(System.in);
 		int hoursCap=23;
 		int minutesCap=59;
 
