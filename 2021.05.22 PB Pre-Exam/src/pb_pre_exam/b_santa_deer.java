@@ -15,13 +15,8 @@ public class b_santa_deer
 		
 		double foodRequired=(foodFirstDeer+foodSecondDeer+foodThirdDeer)*daysGone;
 		if(foodLeft>=foodRequired)
-		{
 			System.out.printf("%.0f kilos of food left.", Math.floor(foodLeft-foodRequired));
-		}
 		else
-		{
 			System.out.printf("%.0f more kilos of food are needed.", Math.ceil(foodRequired-foodLeft));
-		}
-	
 	}
 }
